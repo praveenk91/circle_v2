@@ -71,7 +71,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 .tab_item{padding:7px;float:left;width:50%;text-align:center}
 .tab_active{border-bottom:2px solid #21a594!important;cursor:pointer;color:#21a594}
 .back{width:26px;margin-top:15px}
-.home_header{position:fixed;left:0;width:100%;display:block;padding:0;background:#fff;-webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);box-shadow:0 4px 4px rgba(0,0,0,.1);z-index:50}
+.home_header{position:fixed;left:0;width:100%;display:block;padding:0;background:#fff;-webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);box-shadow:0 4px 4px rgba(0,0,0,.1)}
 .header_item .home img{height:25px;margin-top:10px}
 .card_placeholder{border-radius:3px;margin:10px;margin-top:10px;-webkit-box-shadow:0 2px 8px rgba(0,0,0,.6);box-shadow:0 1px 8px rgba(0,0,0,.6);background-size:100% auto}
 .card_placeholder,.image_placeholder{background-image:linear-gradient(90deg,#ddd,#e8e8e8 40px,#ddd 80px);-webkit-animation:shine 1.6s infinite linear;animation:shine 1.6s infinite linear}
@@ -139,11 +139,6 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
   font-size: 25px;
   font-weight: bold;
   padding: 0;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 .header a.active {
