@@ -26,6 +26,8 @@ h4{
 	padding:0;
 	max-width:750px;
 	overflow:hidden;
+	animation-name: card_list;
+    animation-duration: 1s;
 	padding-bottom:80px}
 .btn-load-more{
 	text-align:center;
@@ -740,4 +742,3 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
      from{ right:-50px;}
     to{ right:0px; }
 }
-/*# sourceMappingURL=style.936fd.css.map*/
