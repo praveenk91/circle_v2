@@ -42,6 +42,35 @@
     border-radius: 3rem;
     font-size: 3rem;
 	}
+
+	.city_button{
+	border: 5px solid white;
+    color: white;
+    padding: 7%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 3rem;
+     border-radius: 3rem;
+
+/*    margin: 4px 2px;*/
+    cursor: pointer;
+	}
+
+	/* Ripple effect */
+	.ripple {
+	  background-position: center;
+	  transition: background 0.8s;
+	}
+	.ripple:hover {
+	  background: #ffffff10 radial-gradient(circle, transparent 1%, #ffffff50 1%) center/15000%;
+	}
+	.ripple:active {
+	  background-color: rgba(255 255 255 0.9);
+	  background-size: 100%;
+	  transition: background 0s;
+	}
+
 </style>
 </head>
 
@@ -49,15 +78,13 @@
 
 <div class="headline">अपना शहर चुनें</div>
 <div class="option">
-	<div class="city">आगरा
-	</div>
+
+	<a class="city_button ripple" href="#">आगरा</a>
 </div>
 <div class="option">
-	<div class="city">मथुरा
-	</div>
+	<a class="city_button ripple" href="#">मथुरा</a>
 </div>
 <div class="option">
-	<div class="city">अन्य
-</div>
+	<a class="city_button ripple" href="#">अन्य</a>
 </body>
 </html>
